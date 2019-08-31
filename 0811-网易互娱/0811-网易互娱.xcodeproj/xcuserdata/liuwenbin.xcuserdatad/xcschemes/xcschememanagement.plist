@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>0811-网易互娱-1数量分类.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>0811-网易互娱-连续N数量.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>06BACC1E23014C6C00D6A933</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06BACC292301516900D6A933</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06E7B33122FFECC300FC7398</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

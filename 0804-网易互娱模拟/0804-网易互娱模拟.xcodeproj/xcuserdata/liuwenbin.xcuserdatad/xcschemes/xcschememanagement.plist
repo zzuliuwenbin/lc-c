@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>0804-网易互娱模拟-个人所得税.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>0804-网易互娱模拟-字符串缩写.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>0804-网易互娱模拟-组合进制串求原数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>06F715AA22F92CE800B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715E622F94CC500B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715F122F94D1F00B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715FC22F94D7600B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

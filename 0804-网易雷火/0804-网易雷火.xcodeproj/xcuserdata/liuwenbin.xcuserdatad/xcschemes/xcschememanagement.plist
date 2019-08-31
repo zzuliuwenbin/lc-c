@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>0804-网易雷火-图文混排.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>0804-网易雷火-点击叠加窗口.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>06F715B822F92EC300B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715C322F92F9700B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715D022F9323E00B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06F715DB22F9336F00B876A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
