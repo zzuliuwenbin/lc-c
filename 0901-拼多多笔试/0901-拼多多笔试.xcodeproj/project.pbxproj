@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06ACE1D5231BA3E600DCD583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06ACE1D4231BA3E600DCD583 /* main.cpp */; };
+		06ACE1E2231BA50300DCD583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06ACE1E1231BA50300DCD583 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06ACE1CF231BA3E600DCD583 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		06ACE1DD231BA50300DCD583 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06ACE1D1231BA3E600DCD583 /* 0901-拼多多笔试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0901-拼多多笔试"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ACE1D4231BA3E600DCD583 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06ACE1DF231BA50300DCD583 /* 0901-拼多多笔试-topK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0901-拼多多笔试-topK"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ACE1E1231BA50300DCD583 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06ACE1CE231BA3E600DCD583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ACE1DC231BA50300DCD583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ACE1C8231BA3E600DCD583 = {
+			isa = PBXGroup;
+			children = (
+				06ACE1D3231BA3E600DCD583 /* 0901-拼多多笔试 */,
+				06ACE1E0231BA50300DCD583 /* 0901-拼多多笔试-topK */,
+				06ACE1D2231BA3E600DCD583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06ACE1D2231BA3E600DCD583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06ACE1D1231BA3E600DCD583 /* 0901-拼多多笔试 */,
+				06ACE1DF231BA50300DCD583 /* 0901-拼多多笔试-topK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06ACE1D3231BA3E600DCD583 /* 0901-拼多多笔试 */ = {
+			isa = PBXGroup;
+			children = (
+				06ACE1D4231BA3E600DCD583 /* main.cpp */,
+			);
+			path = "0901-拼多多笔试";
+			sourceTree = "<group>";
+		};
+		06ACE1E0231BA50300DCD583 /* 0901-拼多多笔试-topK */ = {
+			isa = PBXGroup;
+			children = (
+				06ACE1E1231BA50300DCD583 /* main.cpp */,
+			);
+			path = "0901-拼多多笔试-topK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06ACE1D0231BA3E600DCD583 /* 0901-拼多多笔试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ACE1D8231BA3E600DCD583 /* Build configuration list for PBXNativeTarget "0901-拼多多笔试" */;
+			buildPhases = (
+				06ACE1CD231BA3E600DCD583 /* Sources */,
+				06ACE1CE231BA3E600DCD583 /* Frameworks */,
+				06ACE1CF231BA3E600DCD583 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0901-拼多多笔试";
+			productName = "0901-拼多多笔试";
+			productReference = 06ACE1D1231BA3E600DCD583 /* 0901-拼多多笔试 */;
+			productType = "com.apple.product-type.tool";
+		};
+		06ACE1DE231BA50300DCD583 /* 0901-拼多多笔试-topK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ACE1E5231BA50300DCD583 /* Build configuration list for PBXNativeTarget "0901-拼多多笔试-topK" */;
+			buildPhases = (
+				06ACE1DB231BA50300DCD583 /* Sources */,
+				06ACE1DC231BA50300DCD583 /* Frameworks */,
+				06ACE1DD231BA50300DCD583 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0901-拼多多笔试-topK";
+			productName = "0901-拼多多笔试-topK";
+			productReference = 06ACE1DF231BA50300DCD583 /* 0901-拼多多笔试-topK */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06ACE1C9231BA3E600DCD583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "刘文斌";
+				TargetAttributes = {
+					06ACE1D0231BA3E600DCD583 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					06ACE1DE231BA50300DCD583 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 06ACE1CC231BA3E600DCD583 /* Build configuration list for PBXProject "0901-拼多多笔试" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06ACE1C8231BA3E600DCD583;
+			productRefGroup = 06ACE1D2231BA3E600DCD583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06ACE1D0231BA3E600DCD583 /* 0901-拼多多笔试 */,
+				06ACE1DE231BA50300DCD583 /* 0901-拼多多笔试-topK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06ACE1CD231BA3E600DCD583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ACE1D5231BA3E600DCD583 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ACE1DB231BA50300DCD583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ACE1E2231BA50300DCD583 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06ACE1D6231BA3E600DCD583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		06ACE1D7231BA3E600DCD583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		06ACE1D9231BA3E600DCD583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06ACE1DA231BA3E600DCD583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06ACE1E3231BA50300DCD583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06ACE1E4231BA50300DCD583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06ACE1CC231BA3E600DCD583 /* Build configuration list for PBXProject "0901-拼多多笔试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ACE1D6231BA3E600DCD583 /* Debug */,
+				06ACE1D7231BA3E600DCD583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ACE1D8231BA3E600DCD583 /* Build configuration list for PBXNativeTarget "0901-拼多多笔试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ACE1D9231BA3E600DCD583 /* Debug */,
+				06ACE1DA231BA3E600DCD583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ACE1E5231BA50300DCD583 /* Build configuration list for PBXNativeTarget "0901-拼多多笔试-topK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ACE1E3231BA50300DCD583 /* Debug */,
+				06ACE1E4231BA50300DCD583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06ACE1C9231BA3E600DCD583 /* Project object */;
+}

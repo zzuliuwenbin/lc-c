@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		06906FED22FAE83100BDEDDB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06906FEC22FAE83100BDEDDB /* main.cpp */; };
 		06906FF822FAF4A300BDEDDB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06906FF722FAF4A300BDEDDB /* main.cpp */; };
+		06D7B34A231A8BAC00E790B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D7B349231A8BAC00E790B6 /* main.cpp */; };
+		06D7B355231A902F00E790B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D7B354231A902F00E790B6 /* main.cpp */; };
+		06D7B360231A91B700E790B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D7B35F231A91B700E790B6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		06D7B345231A8BAC00E790B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		06D7B350231A902F00E790B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		06D7B35B231A91B700E790B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +67,12 @@
 		06906FEC22FAE83100BDEDDB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		06906FF522FAF4A300BDEDDB /* 0807-华为-前缀树查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0807-华为-前缀树查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06906FF722FAF4A300BDEDDB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06D7B347231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0831-华为-二进制比特出现次数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D7B349231A8BAC00E790B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06D7B352231A902F00E790B6 /* 0831-华为-字符串解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0831-华为-字符串解析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D7B354231A902F00E790B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06D7B35D231A91B700E790B6 /* 0831-华为-N度好友 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0831-华为-N度好友"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D7B35F231A91B700E790B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06D7B344231A8BAC00E790B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D7B34F231A902F00E790B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D7B35A231A91B700E790B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +119,9 @@
 			children = (
 				06906FEB22FAE83100BDEDDB /* 0807-华为-可用字符集 */,
 				06906FF622FAF4A300BDEDDB /* 0807-华为-前缀树查找 */,
+				06D7B348231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */,
+				06D7B353231A902F00E790B6 /* 0831-华为-字符串解析 */,
+				06D7B35E231A91B700E790B6 /* 0831-华为-N度好友 */,
 				06906FDD22FAE44A00BDEDDB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +131,9 @@
 			children = (
 				06906FEA22FAE83100BDEDDB /* 0807-华为-可用字符集 */,
 				06906FF522FAF4A300BDEDDB /* 0807-华为-前缀树查找 */,
+				06D7B347231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */,
+				06D7B352231A902F00E790B6 /* 0831-华为-字符串解析 */,
+				06D7B35D231A91B700E790B6 /* 0831-华为-N度好友 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +152,30 @@
 				06906FF722FAF4A300BDEDDB /* main.cpp */,
 			);
 			path = "0807-华为-前缀树查找";
+			sourceTree = "<group>";
+		};
+		06D7B348231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */ = {
+			isa = PBXGroup;
+			children = (
+				06D7B349231A8BAC00E790B6 /* main.cpp */,
+			);
+			path = "0831-华为-二进制比特出现次数";
+			sourceTree = "<group>";
+		};
+		06D7B353231A902F00E790B6 /* 0831-华为-字符串解析 */ = {
+			isa = PBXGroup;
+			children = (
+				06D7B354231A902F00E790B6 /* main.cpp */,
+			);
+			path = "0831-华为-字符串解析";
+			sourceTree = "<group>";
+		};
+		06D7B35E231A91B700E790B6 /* 0831-华为-N度好友 */ = {
+			isa = PBXGroup;
+			children = (
+				06D7B35F231A91B700E790B6 /* main.cpp */,
+			);
+			path = "0831-华为-N度好友";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +215,57 @@
 			productReference = 06906FF522FAF4A300BDEDDB /* 0807-华为-前缀树查找 */;
 			productType = "com.apple.product-type.tool";
 		};
+		06D7B346231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D7B34D231A8BAC00E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-二进制比特出现次数" */;
+			buildPhases = (
+				06D7B343231A8BAC00E790B6 /* Sources */,
+				06D7B344231A8BAC00E790B6 /* Frameworks */,
+				06D7B345231A8BAC00E790B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0831-华为-二进制比特出现次数";
+			productName = "0831-华为-二进制比特出现次数";
+			productReference = 06D7B347231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		06D7B351231A902F00E790B6 /* 0831-华为-字符串解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D7B356231A902F00E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-字符串解析" */;
+			buildPhases = (
+				06D7B34E231A902F00E790B6 /* Sources */,
+				06D7B34F231A902F00E790B6 /* Frameworks */,
+				06D7B350231A902F00E790B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0831-华为-字符串解析";
+			productName = "0831-华为-字符串解析";
+			productReference = 06D7B352231A902F00E790B6 /* 0831-华为-字符串解析 */;
+			productType = "com.apple.product-type.tool";
+		};
+		06D7B35C231A91B700E790B6 /* 0831-华为-N度好友 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D7B361231A91B700E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-N度好友" */;
+			buildPhases = (
+				06D7B359231A91B700E790B6 /* Sources */,
+				06D7B35A231A91B700E790B6 /* Frameworks */,
+				06D7B35B231A91B700E790B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0831-华为-N度好友";
+			productName = "0831-华为-N度好友";
+			productReference = 06D7B35D231A91B700E790B6 /* 0831-华为-N度好友 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +279,15 @@
 						CreatedOnToolsVersion = 10.3;
 					};
 					06906FF422FAF4A300BDEDDB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					06D7B346231A8BAC00E790B6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					06D7B351231A902F00E790B6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					06D7B35C231A91B700E790B6 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -159,6 +306,9 @@
 			targets = (
 				06906FE922FAE83100BDEDDB /* 0807-华为-可用字符集 */,
 				06906FF422FAF4A300BDEDDB /* 0807-华为-前缀树查找 */,
+				06D7B346231A8BAC00E790B6 /* 0831-华为-二进制比特出现次数 */,
+				06D7B351231A902F00E790B6 /* 0831-华为-字符串解析 */,
+				06D7B35C231A91B700E790B6 /* 0831-华为-N度好友 */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +327,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				06906FF822FAF4A300BDEDDB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D7B343231A8BAC00E790B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D7B34A231A8BAC00E790B6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D7B34E231A902F00E790B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D7B355231A902F00E790B6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D7B359231A91B700E790B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D7B360231A91B700E790B6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +504,60 @@
 			};
 			name = Release;
 		};
+		06D7B34B231A8BAC00E790B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06D7B34C231A8BAC00E790B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06D7B357231A902F00E790B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06D7B358231A902F00E790B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06D7B362231A91B700E790B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06D7B363231A91B700E790B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -356,6 +584,33 @@
 			buildConfigurations = (
 				06906FFA22FAF4A300BDEDDB /* Debug */,
 				06906FFB22FAF4A300BDEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D7B34D231A8BAC00E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-二进制比特出现次数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D7B34B231A8BAC00E790B6 /* Debug */,
+				06D7B34C231A8BAC00E790B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D7B356231A902F00E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-字符串解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D7B357231A902F00E790B6 /* Debug */,
+				06D7B358231A902F00E790B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D7B361231A91B700E790B6 /* Build configuration list for PBXNativeTarget "0831-华为-N度好友" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D7B362231A91B700E790B6 /* Debug */,
+				06D7B363231A91B700E790B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

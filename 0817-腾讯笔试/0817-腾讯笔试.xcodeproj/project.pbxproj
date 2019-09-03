@@ -10,6 +10,9 @@
 		060F59CC2308227F00FA3050 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 060F59CB2308227F00FA3050 /* main.cpp */; };
 		060F59D923082B4300FA3050 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 060F59D823082B4300FA3050 /* main.cpp */; };
 		060F59E423082C9000FA3050 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 060F59E323082C9000FA3050 /* main.cpp */; };
+		0668E2F4231BEBDF008C4BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0668E2F3231BEBDF008C4BA2 /* main.cpp */; };
+		0668E2FF231BEFC9008C4BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0668E2FE231BEFC9008C4BA2 /* main.cpp */; };
+		0668E30A231BF9E4008C4BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0668E309231BF9E4008C4BA2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +43,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0668E2EF231BEBDF008C4BA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0668E2FA231BEFC9008C4BA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0668E305231BF9E4008C4BA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +79,12 @@
 		060F59D823082B4300FA3050 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		060F59E123082C9000FA3050 /* 0817-腾讯笔试-最少休息天数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0817-腾讯笔试-最少休息天数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		060F59E323082C9000FA3050 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0668E2F1231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0901-腾讯-多大宝箱数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0668E2F3231BEBDF008C4BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0668E2FC231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0901-腾讯笔试-学习状态评分"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0668E2FE231BEFC9008C4BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0668E307231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0901-腾讯笔试-摆花方案"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0668E309231BF9E4008C4BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +109,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0668E2EE231BEBDF008C4BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0668E2F9231BEFC9008C4BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0668E304231BF9E4008C4BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +139,9 @@
 				060F59CA2308227F00FA3050 /* 0817-腾讯笔试 */,
 				060F59D723082B4300FA3050 /* 0817-腾讯笔试-可视楼数量 */,
 				060F59E223082C9000FA3050 /* 0817-腾讯笔试-最少休息天数 */,
+				0668E2F2231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */,
+				0668E2FD231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */,
+				0668E308231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */,
 				060F59C92308227F00FA3050 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +152,9 @@
 				060F59C82308227F00FA3050 /* 0817-腾讯笔试 */,
 				060F59D623082B4300FA3050 /* 0817-腾讯笔试-可视楼数量 */,
 				060F59E123082C9000FA3050 /* 0817-腾讯笔试-最少休息天数 */,
+				0668E2F1231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */,
+				0668E2FC231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */,
+				0668E307231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +181,30 @@
 				060F59E323082C9000FA3050 /* main.cpp */,
 			);
 			path = "0817-腾讯笔试-最少休息天数";
+			sourceTree = "<group>";
+		};
+		0668E2F2231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */ = {
+			isa = PBXGroup;
+			children = (
+				0668E2F3231BEBDF008C4BA2 /* main.cpp */,
+			);
+			path = "0901-腾讯-多大宝箱数";
+			sourceTree = "<group>";
+		};
+		0668E2FD231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */ = {
+			isa = PBXGroup;
+			children = (
+				0668E2FE231BEFC9008C4BA2 /* main.cpp */,
+			);
+			path = "0901-腾讯笔试-学习状态评分";
+			sourceTree = "<group>";
+		};
+		0668E308231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */ = {
+			isa = PBXGroup;
+			children = (
+				0668E309231BF9E4008C4BA2 /* main.cpp */,
+			);
+			path = "0901-腾讯笔试-摆花方案";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +261,57 @@
 			productReference = 060F59E123082C9000FA3050 /* 0817-腾讯笔试-最少休息天数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0668E2F0231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0668E2F7231BEBDF008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯-多大宝箱数" */;
+			buildPhases = (
+				0668E2ED231BEBDF008C4BA2 /* Sources */,
+				0668E2EE231BEBDF008C4BA2 /* Frameworks */,
+				0668E2EF231BEBDF008C4BA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0901-腾讯-多大宝箱数";
+			productName = "0901-腾讯-多大宝箱数";
+			productReference = 0668E2F1231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0668E2FB231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0668E300231BEFC9008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯笔试-学习状态评分" */;
+			buildPhases = (
+				0668E2F8231BEFC9008C4BA2 /* Sources */,
+				0668E2F9231BEFC9008C4BA2 /* Frameworks */,
+				0668E2FA231BEFC9008C4BA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0901-腾讯笔试-学习状态评分";
+			productName = "0901-腾讯笔试-学习状态评分";
+			productReference = 0668E2FC231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0668E306231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0668E30B231BF9E4008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯笔试-摆花方案" */;
+			buildPhases = (
+				0668E303231BF9E4008C4BA2 /* Sources */,
+				0668E304231BF9E4008C4BA2 /* Frameworks */,
+				0668E305231BF9E4008C4BA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0901-腾讯笔试-摆花方案";
+			productName = "0901-腾讯笔试-摆花方案";
+			productReference = 0668E307231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +328,15 @@
 						CreatedOnToolsVersion = 10.3;
 					};
 					060F59E023082C9000FA3050 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0668E2F0231BEBDF008C4BA2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0668E2FB231BEFC9008C4BA2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0668E306231BF9E4008C4BA2 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -209,6 +356,9 @@
 				060F59C72308227F00FA3050 /* 0817-腾讯笔试 */,
 				060F59D523082B4300FA3050 /* 0817-腾讯笔试-可视楼数量 */,
 				060F59E023082C9000FA3050 /* 0817-腾讯笔试-最少休息天数 */,
+				0668E2F0231BEBDF008C4BA2 /* 0901-腾讯-多大宝箱数 */,
+				0668E2FB231BEFC9008C4BA2 /* 0901-腾讯笔试-学习状态评分 */,
+				0668E306231BF9E4008C4BA2 /* 0901-腾讯笔试-摆花方案 */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +385,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				060F59E423082C9000FA3050 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0668E2ED231BEBDF008C4BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0668E2F4231BEBDF008C4BA2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0668E2F8231BEFC9008C4BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0668E2FF231BEFC9008C4BA2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0668E303231BF9E4008C4BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0668E30A231BF9E4008C4BA2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +580,60 @@
 			};
 			name = Release;
 		};
+		0668E2F5231BEBDF008C4BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0668E2F6231BEBDF008C4BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0668E301231BEFC9008C4BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0668E302231BEFC9008C4BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0668E30C231BF9E4008C4BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0668E30D231BF9E4008C4BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDDTF6824M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +669,33 @@
 			buildConfigurations = (
 				060F59E623082C9000FA3050 /* Debug */,
 				060F59E723082C9000FA3050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0668E2F7231BEBDF008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯-多大宝箱数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0668E2F5231BEBDF008C4BA2 /* Debug */,
+				0668E2F6231BEBDF008C4BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0668E300231BEFC9008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯笔试-学习状态评分" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0668E301231BEFC9008C4BA2 /* Debug */,
+				0668E302231BEFC9008C4BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0668E30B231BF9E4008C4BA2 /* Build configuration list for PBXNativeTarget "0901-腾讯笔试-摆花方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0668E30C231BF9E4008C4BA2 /* Debug */,
+				0668E30D231BF9E4008C4BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
